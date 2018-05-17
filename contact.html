@@ -9,6 +9,7 @@
 <meta name="Description" content="To examine the effectiveness of low-cost, low-energy wastewater treatment systems for improving water quality in urban and rural India, and evaluating associated socio-economic benefits." />
 <link href="https://fonts.googleapis.com/css?family=Kavivanar|Open+Sans" rel="stylesheet">
 <link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -16,13 +17,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="sunrise.js"></script>
 </head>
 <body id="contact">
-<div class="container">
+<div class="container" id="pageTop">
   <header>
     <div class="primary_header">
       <h1 class="title">SUNRISE</h1>
     </div>
+	<div id="mobileMenuBtn"><i class="fa fa-2x fa-bars"></i></div>
     <nav class="secondary_header" id="menu">
       <ul>
         <li><a href="home.html" class="home">Home</a></li>
@@ -47,7 +50,8 @@
     </aside>
   </section>
   <footer class="secondary_header footer">
-    <div class="copyright">&copy;2018 - <strong>SUNRISE</strong></div>
+    <div class="copyright">&copy;2018 - <strong>SUNRISE</strong>
+	<span id="pageTopBtn"><a href="#pageTop" title="Jump to top of page"><i class="fa fa-2x fa-arrow-alt-circle-up"></i></a></span></div>
   </footer>
 </div>
 </body>
