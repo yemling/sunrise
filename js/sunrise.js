@@ -2,10 +2,8 @@
 var sunrise = {};
 sunrise.init = function()
 {
-	
 	if(window.innerWidth < 769)
 	{
-		console.log(window.innerWidth);
 		$('#mobileMenuBtn').click(sunrise.showMenu);
 	}
 	return;
